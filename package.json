@@ -1,0 +1,16 @@
+{
+  "name": "happy-new-year-ar-2024",
+  "version": "1.0.0",
+  "description": "年賀状用に作成した自作の3DモデルをARで表示",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "serve ./src/",
+    "https": "serve --ssl-cert ./localhttps_cert.pem --ssl-key ./localhttps_key.pem",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
